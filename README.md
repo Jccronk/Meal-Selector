@@ -1,26 +1,30 @@
-Meal Selector Project
+# Meal Selector Project
 
-Introduction
+## Introduction
+The Meal Selector is a web application designed to offer meal options for breakfast and dinner. It provides an interactive experience where users can select meals and view related quotes. Hosted on a Google Cloud Linux Virtual Private Server (VPS) with Apache as the web server.
 
-The Meal Selector is a web application designed to offer meal options for breakfast and dinner. It provides an interactive experience where users can select meals and view related quotes. This application is hosted on a Google Cloud Linux Virtual Private Server (VPS) and uses Apache as the web server.
+## File Structure
+- `index.php`: Main entry point, links to breakfast and dinner options.
+- `dinner.php`: Displays dinner options with interactive images and quotes.
+- `breakfast.php`: Shows breakfast options, similar interactive functionality.
 
-File Structure
+## Features
+- **Interactive Meal Selection**: Choose between breakfast and dinner on the main page.
+- **Dynamic Quotes**: Click on meal images for related pop-up quotes.
+- **Easy Navigation**: Navigate back to the main page from meal selections.
 
-index.php: The main entry point of the application, providing links to the meal options.
-dinner.php: Displays dinner choices with interactive images and quotes for British and Mexican dinners.
-breakfast.php: Shows breakfast options with functionality similar to dinner.php, focused on British and Mexican breakfasts.
-Features
+## Technologies Used
+- **HTML5**: For structuring web content.
+- **CSS**: External stylesheet `styles.css`.
+- **JavaScript**: Interactive features like displaying meal quotes.
+- **Apache**: Web server on the Google Cloud Linux VPS.
 
-Interactive Meal Selection: Users can choose between breakfast and dinner on the main page.
-Dynamic Quotes: Clicking on meal images triggers a pop-up displaying a related quote.
-Easy Navigation: Users can easily navigate back to the main page from any of the meal pages.
-Technologies Used
+## Hosting
+Hosted on a Linux VPS provided by Google Cloud, using Apache to serve the application.
 
-HTML5: For structuring the web content.
-CSS: External stylesheet styles.css for layout and design.
-JavaScript: To create interactive features like displaying meal quotes.
-Apache: Used as the web server on the Google Cloud Linux VPS.
-Hosting
+## Usage
+- Visit the application URL in a browser.
+- Choose breakfast or dinner to explore options.
+- Click on meal images for quotes.
+- Use the 'Home' button for main page navigation.
 
-The application is hosted on a Linux VPS provided by Google Cloud.
-Apache web server is used to serve the application pages.
